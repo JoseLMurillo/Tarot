@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <style src = "style.css"></style>
+    <title>Document</title>
+</head>
+<body>
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- Container wrapper -->
+    <div class="container">
+      <!-- Navbar brand -->
+      <a class="navbar-brand me-2" href="https://mdbgo.com/">
+        <img
+          src="data:image/jpeg;base64,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"
+          height="16"
+          alt="MDB Logo"
+          loading="lazy"
+          style="margin-top: -1px;"
+        />
+      </a>
+  
+      <!-- Toggle button -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-mdb-toggle="collapse"
+        data-mdb-target="#navbarButtonsExample"
+        aria-controls="navbarButtonsExample"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fas fa-bars"></i>
+      </button>
+  
+      <!-- Collapsible wrapper -->
+      <div class="collapse navbar-collapse" id="navbarButtonsExample">
+        <!-- Left links -->
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Dashboard</a>
+          </li>
+        </ul>
+        <!-- Left links -->
+  
+        <div class="d-flex align-items-center">
+          <button type="button" class="btn btn-link px-3 me-2">
+            Login
+          </button>
+          <button type="button" class="btn btn-primary me-3">
+            Sign up for free
+          </button>
+        </div>
+      </div>
+      <!-- Collapsible wrapper -->
+    </div>
+    <!-- Container wrapper -->
+  </nav>
+  <!-- Navbar -->
+
+</body>
+<script src = "./js/card.js"></script>
+<script src = "./js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.min.js" integrity="sha384-heAjqF+bCxXpCWLa6Zhcp4fu20XoNIA98ecBC1YkdXhszjoejr5y9Q77hIrv8R9i" crossorigin="anonymous"></script>
+</html>
