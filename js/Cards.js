@@ -69,104 +69,82 @@ function getCards(){
             name: "LA RUEDA DE LA FORTUNA",
             description: "Cambio, evolución, éxito, buena fortuna, destino. Felicidad, abundancia. Nuevas condiciones. Abundancia, crecimiento.",
             invert: "La transformación se efectuará dificultosamente pero se hará de todos modos. Progreso retardado, Retroceso."
+        },
+        {
+            id: 11,
+            name: "LA FUERZA",
+            description: "Sublimación o regulación de las pasiones y bajos instintos. Poder, energía, gran amor. El espíritu que domina la materia. Acción, coraje, éxito. Poderosa voluntad y gran fuerza física. La fuerza interior que domestica la bestia. Poder sobre los animales.",
+            invert: "Discordia, ruina. Debilidad, testarudez, abuso de poder. Impaciencia, temeridad, grosería, insensibilidad. dureza, crueldad, furor."
+        },
+        {
+            id: 12,
+            name: "EL COLGADO",
+            description: "Fortaleza, sabiduría. Limitaciones auto impuestas. Iniciación, prueba. Redención a través del sacrificio, pérdida. Poder profético. Decisiones suspendidas. Elección que requiere contemplación.",
+            invert: "Arrogancia, egotismo, resistencia a las influencias espirituales. Materialismo. Esfuerzo desperdiciado. Falsa profecía. Fracaso. Falta de límites, falta de franqueza, carencia de sacrificio."
+        },
+        {
+            id: 13,
+            name: "LA MUERTE",
+            description: "Transformación completa. Muerta y renacimiento. El fin de algo. Evolución desde un estado a otro superior. Cambio provechoso.",
+            invert: "Estancamiento, muerte, petrificación. Enfermedad incurable. Matrimonio roto. Falta de oportunidades, esperanza deshecha."
+        },
+        {
+            id: 14,
+            name: "LA TEMPLANZA",
+            description: "Consideración cuidadosa, paciencia, moderación, adaptación, compostura, reflexión. Paciencia uniendo dos opuestos, combinándolos cuidadosamente. Buen matrimonio. Trabajando en armonía con otros, habilidad directiva. Algo se está preparando. Gran talento y creatividad. Luchando por trascendencia a través del trabajo. Alquimia. La unión de los opuestos refinada por el fuego de la voluntad.",
+            invert: "Desorden, conflicto, mala combinación, peleas. Posibilidad de naufragio. Desarreglos."
+        },
+        {
+            id: 15,
+            name: "EL DIABLO",
+            description: "Destino (bueno o malo). Poder de seducción, impulso ciego, tentación, obsesión. Desviación sexual. Un estado mental confuso. Las pasiones carnales descontroladas.",
+            invert: "Carta dañina, fatalidad, mal uso de la fuerza. Debilidad, ceguera, desorden. Efectos maléficos. La patética condición humana que prefiere la ilusión a la verdad."
+        },
+        {
+            id: 16,
+            name: "LA TORRE",
+            description: "Cambios repentinos sin otra alternativa. Colapso, escape de la prisión o liberación de ataduras, accidente. Los planes fracasarán, las intenciones no se realizarán. El dedo de Dios. Bancarrota. Muerte súbita.",
+            invert: "Confusión completa. Ganar la libertad a un gran costo. Falsas acusaciones, opresión. Castigo que resulta de los excesos cometidos, enfermedad. Error presuntuoso que no sabe rectificarse a tiempo."
+        },
+        {
+            id: 17,
+            name: "LA ESTRELLA",
+            description: "Esperanza, ayuda inesperada, perspicacia y claridad de visión, inspiración, flexibilidad. Un gran amor será dado y recibido. Buena salud. Carta totalmente espiritual",
+            invert: "Arrogancia, pesimismo, testarudez. enfermedad, error de juicio. Impotencia psíquica, reestructuración, privación y abandono."
+        },
+        {
+            id: 18,
+            name: "LA LUNA",
+            description: "Intuición, umbral de un importante cambio, camino difícil y oscuro, desarrollo de poderes psíquicos. Navegación, experimentación, trabajo penoso.",
+            invert: "Peligros no vistos, enemigos ocultos, alucinación, autoengaño, histeria, desorientación. Inestabilidad, embustes, trampas, falso saber, carácter neurótico. Escándalo, secreto que se hace público, chantajista."
+        },
+        {
+            id: 19,
+            name: "EL SOL",
+            description: "Gloria. Felicidad material. Matrimonio o relación feliz, colaboración. Exito. Placer, energía, motivación, inspiración.",
+            invert: "Molestias, disimulos, arrogancia, vanidad. Compromiso o trabajo perdido. Tanteo en la oscuridad, desorientación. Deseo de figurar."
+        },
+        {
+            id: 20,
+            name: "EL JUICIO",
+            description: "Cambio radical, resurrección a una vida nueva. Trabajo (o vida) bien hecha. Voluntad para iniciar algo nuevo. Buen juicio y discernimiento. Poder creativo e influencia sobre la familia y la carrera laboral. Capacidad de perdonar. Despertar. Dictámenes judiciales favorable.",
+            invert: "Vacilación espiritual, debilidad, juicio o decisión equivocada. Enfermedad, separación. Dictamen judicial adverso. Error sobre sí mismo y sobre los otros. Decisión postergada."
+        },
+        {
+            id: 21,
+            name: "EL MUNDO",
+            description: "Suceso garantizado. Recompensas recibidas. Viaje, emigración (dentro del mismo continente), cambio de lugar de residencia. Compra o venta de tierras.",
+            invert: "Obstáculos, estancamiento, estorbos. Necesidad de trabajar muy duro para alcanzar el éxito."
+        },
+        {
+            id: 21,
+            name: "CABALLERO [REY] DE BASTOS",
+            description: "Hombre atrevido, rápido y generoso. Apasionado y fuerte. Paternalista y orgulloso. Puede ser un caballero del campo, generalmente casado. Herencia inesperada, un buen matrimonio.",
+            invert: "Despótico, intolerante, prejuicioso, mal intencionado."
+
+
 
             /*
-
-## [XI] LA FUERZA
-
-Sublimación o regulación de las pasiones y bajos instintos. Poder, energía, gran amor. El espíritu que domina la materia. Acción, coraje, éxito. Poderosa voluntad y gran fuerza física. La fuerza interior que domestica la bestia. Poder sobre los animales.
-
-### INVERTIDA:
-
-Discordia, ruina. Debilidad, testarudez, abuso de poder. Impaciencia, temeridad, grosería, insensibilidad. dureza, crueldad, furor.
-
-## [XII] EL COLGADO
-
-Fortaleza, sabiduría. Limitaciones auto impuestas. Iniciación, prueba. Redención a través del sacrificio, pérdida. Poder profético. Decisiones suspendidas. Elección que requiere contemplación.
-
-### INVERTIDA:
-
-Arrogancia, egotismo, resistencia a las influencias espirituales. Materialismo. Esfuerzo desperdiciado. Falsa profecía. Fracaso. Falta de límites, falta de franqueza, carencia de sacrificio.
-
-## [XIII] LA MUERTE
-
-Transformación completa. Muerta y renacimiento. El fin de algo. Evolución desde un estado a otro superior. Cambio provechoso.
-
-### INVERTIDA:
-
-Estancamiento, muerte, petrificación. Enfermedad incurable. Matrimonio roto. Falta de oportunidades, esperanza deshecha.
-
-## [XIV] LA TEMPLANZA
-
-Consideración cuidadosa, paciencia, moderación, adaptación, compostura, reflexión. Paciencia uniendo dos opuestos, combinándolos cuidadosamente. Buen matrimonio. Trabajando en armonía con otros, habilidad directiva. Algo se está preparando. Gran talento y creatividad. Luchando por trascendencia a través del trabajo. Alquimia. La unión de los opuestos refinada por el fuego de la voluntad.
-
-### INVERTIDA:
-
-Desorden, conflicto, mala combinación, peleas. Posibilidad de naufragio. Desarreglos.
-
-## [XV] EL DIABLO
-
-Destino (bueno o malo). Poder de seducción, impulso ciego, tentación, obsesión. Desviación sexual. Un estado mental confuso. Las pasiones carnales descontroladas.
-
-### INVERTIDA:
-
-Carta dañina, fatalidad, mal uso de la fuerza. Debilidad, ceguera, desorden. Efectos maléficos. La patética condición humana que prefiere la ilusión a la verdad.
-
-## [XVI] LA TORRE
-
-Cambios repentinos sin otra alternativa. Colapso, escape de la prisión o liberación de ataduras, accidente. Los planes fracasarán, las intenciones no se realizarán. El "dedo de Dios". Bancarrota. Muerte súbita.
-
-### INVERTIDA:
-
-Confusión completa. Ganar la libertad a un gran costo. Falsas acusaciones, opresión. Castigo que resulta de los excesos cometidos, enfermedad. Error presuntuoso que no sabe rectificarse a tiempo.
-
-## [XVII] LA ESTRELLA
-
-Esperanza, ayuda inesperada, perspicacia y claridad de visión, inspiración, flexibilidad. Un gran amor será dado y recibido. Buena salud. Carta totalmente espiritual.
-
-### INVERTIDA:
-
-Arrogancia, pesimismo, testarudez. enfermedad, error de juicio. Impotencia psíquica, reestructuración, privación y abandono.
-
-## [XVIII] LA LUNA
-
-Intuición, umbral de un importante cambio, camino difícil y oscuro, desarrollo de poderes psíquicos. Navegación, experimentación, trabajo penoso.
-
-### INVERTIDA:
-
-Peligros no vistos, enemigos ocultos, alucinación, autoengaño, histeria, desorientación. Inestabilidad, embustes, trampas, falso saber, carácter neurótico. Escándalo, secreto que se hace público, chantajista.
-
-## [XIX] EL SOL
-
-Gloria. Felicidad material. Matrimonio o relación feliz, colaboración. Exito. Placer, energía, motivación, inspiración.
-
-### INVERTIDA:
-
-Molestias, disimulos, arrogancia, vanidad. Compromiso o trabajo perdido. Tanteo en la oscuridad, desorientación. Deseo de figurar.
-
-## [XX] EL JUICIO
-
-Cambio radical, resurrección a una vida nueva. Trabajo (o vida) bien hecha. Voluntad para iniciar algo nuevo. Buen juicio y discernimiento. Poder creativo e influencia sobre la familia y la carrera laboral. Capacidad de perdonar. Despertar. Dictámenes judiciales favorable.
-
-### INVERTIDA:
-
-Vacilación espiritual, debilidad, juicio o decisión equivocada. Enfermedad, separación. Dictamen judicial adverso. Error sobre sí mismo y sobre los otros. Decisión postergada.
-
-## [XXI] EL MUNDO
-
-Suceso garantizado. Recompensas recibidas. Viaje, emigración (dentro del mismo continente), cambio de lugar de residencia. Compra o venta de tierras.
-
-### INVERTIDA:
-
-Obstáculos, estancamiento, estorbos. Necesidad de trabajar muy duro para alcanzar el éxito.
-
-## (23) CABALLERO [REY] DE BASTOS
-
-Hombre atrevido, rápido y generoso. Apasionado y fuerte. Paternalista y orgulloso. Puede ser un caballero del campo, generalmente casado. Herencia inesperada, un buen matrimonio.
-
-### INVERTIDA:
-
-Despótico, intolerante, prejuicioso, mal intencionado.
 
 ## (24) REINA DE BASTOS
 
