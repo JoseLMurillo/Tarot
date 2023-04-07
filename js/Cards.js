@@ -137,267 +137,195 @@ function getCards(){
             invert: "Obstáculos, estancamiento, estorbos. Necesidad de trabajar muy duro para alcanzar el éxito."
         },
         {
-            id: 21,
+            id: 22,
             name: "CABALLERO [REY] DE BASTOS",
             description: "Hombre atrevido, rápido y generoso. Apasionado y fuerte. Paternalista y orgulloso. Puede ser un caballero del campo, generalmente casado. Herencia inesperada, un buen matrimonio.",
             invert: "Despótico, intolerante, prejuicioso, mal intencionado."
-
-
+        },
+        {
+            id: 23,
+            name: "REINA DE BASTOS",
+            description: "Mujer amable, energética, pero calma. Conservadora, pragmática y autoritaria. Fructífera en mente y cuerpo.",
+            invert: "Dominante, celosa, dogmática e irracional. Rápida para ofenderse."
+        },
+        {
+            id: 24,
+            name: "PRÍNCIPE [CABALLERO] DE BASTOS",
+            description: "Un hombre joven y energético, veloz y atrevido. Puede ser noble y generoso, pero también violento y apresurado.",
+            invert: "Celoso, débil e intolerante. Pelea, discordia, frustración."
+        },
+        {
+            id: 25,
+            name: "PRINCESA [SOTA] DE BASTOS",
+            description: "Joven y brillante. Entusiasta y atrevido. Un mensajero o portador de noticias.",
+            invert: "Joven frívolo, teatral y hueco. Cruel, opresivo."
+        },
+        {
+            id: 26,
+            name: "10 DE BASTOS",
+            description: "Opresión. Desequilibrio y egocentrismo. Pesada carga. Fuerza desligada de las fuentes espirituales. Un problema se resolverá pronto.",
+            invert: "Molestias, traición, separación, emigración, algunas pérdidas. Esterilidad."
+        },
+        {
+            id: 27,
+            name: "9 DE BASTOS",
+            description: "Fuerza, capacidad de soportar una larga lucha o esfuerzo y finalmente lograr la victoria. Recuperación de la salud. Fuerza en reserva. Buen arreglo.",
+            invert: "Debilidad, retrasos, suspensión, adversidad. Mala salud."
+        },
+        {
+            id: 28,
+            name: "8 DE BASTOS",
+            description: "Velocidad. Decisión apresurada. Viaje aéreo, mensajes, cartas de amor. Hiperactividad. Grandes esperanzas.",
+            invert: "Oposición, celos. Retraso en los negocios o en los asuntos amorosos."
+        },
+        {
+            id: 29,
+            name: "7 DE BASTOS",
+            description: "Valor. Victoria a través del coraje. Esfuerzo, lucha, fiera competición. Cierto éxito. Negociación, contrato.",
+            invert: "Complicación, dificultad, inseguridad y miedo. Embarazo. Falsa apariencia."
+        },
+        {
+            id: 30,
+            name: "6 DE BASTOS",
+            description: "Victoria después de un conflicto. Buenas noticias, progreso. Ayudando a los amigos.",
+            invert: "Aplazamiento. Insolencia, excesivo orgullo. Traición, aprensión."
+        },
+        {
+            id: 31,
+            name: "5 DE BASTOS",
+            description: "Conflicto, competición, juicio, obstáculos, oposición. Violencia, pelea.",
+            invert: "Peligrosa indecisión, traición, complicación."
+        },
+        {
+            id: 32,
+            name: "4 DE BASTOS",
+            description: "Completa realización. Asentamiento, paz, armonía. Romance, matrimonio, sociedad.",
+            invert: "Inseguridad, incomodidad, desconfianza, Contradicciones. Felicidad incompleta"
+        },
+        {
+            id: 33,
+            name: "3 DE BASTOS",
+            description: "Virtud. Fuerza establecida, realización de la esperanza, nobleza. Cooperación, asociación.",
+            invert: "Inconsistencia, decepción, engaño. Robo, pérdida."
+        },
+        {
+            id: 34,
+            name: "2 DE BASTOS",
+            description: "Dominio. Madurez. Audacia con autocontrol. Influencia.",
+            invert: "Disturbios. Indiferencia o desprecio de las consecuencias. Miedo, enfermedad."
+        },
+        {
+            id: 35,
+            name: "AS DE BASTOS",
+            description: "Creación, nacimiento. El poder o habilidad para iniciar o para seguir adelante un plan o tarea con energía. Capacidad para realizar emprendimientos y determinación. Comienzo de una empresa, aventura, invención o algo nuevo.",
+            invert: "Disturbios. Indiferencia o desprecio de las consecuencias. Miedo, enfermedad."
+        },
+        {
+            id: 36,
+            name: "REY DE COPAS",
+            description: "Un hombre que conoce de leyes o comercio, pero también interesado en ciencia, arte, religión o filosofía. Un buen amigo, liberal, idealista y creativo. Amable y dispuesto a tomar alguna responsabilidad o brindar ayuda.",
+            invert: "Un hombre superficial, que se entusiasma fácilmente pero sin profundidad ni firmeza de carácter. Indigno de confianza, mentiroso, despiadado y vicioso."
+        },
+        {
+            id: 37,
+            name: "Reina de Copas",
+            description: "Soñadora, tranquila, poética, imaginativa, amable, pero no dispuesta a tomar muchas molestias para ayudar a otro.",
+            invert: "Mujer deshonesta y viciosa. Indigna de confianza."
+        },
+        {
+            id: 38,
+            name: "CABALLERO DE COPAS",
+            description: "Un hombre joven, quizás un artista, gracioso y poético. Es un soñador indolente de placeres sensuales. Puede significar un mensajero, una proposición o una invitación.",
+            invert: "Perezoso y engañoso. Disoluto y despiadado."
+        },
+        {
+            id: 39,
+            name: "PRINCESA - SOTA DE COPAS",
+            description: "Joven tranquilo y estudioso, pero también dulce y soñador. Noticias o proposición.",
+            invert: "Un libertino sensual que no es perjudicial pero tampoco sirve de ayuda. Noticies desagradables. Adulador, egocéntrico."
+        },
+        {
+            id: 40,
+            name: "10 DE COPAS",
+            description: "Saciedad. Amor y contentamiento perfectos. Paz, amistad.",
+            invert: "Disipación, pérdida de la amistad, traición. Cosas desperdiciadas."
+        },
+        {
+            id: 41,
+            name: "9 DE COPAS",
+            description: "Felicidad. Exito y bienestar material completo. Usted conseguirá lo que anhela.",
+            invert: "Imperfección, engaño, intemperancia. Usted conseguirá lo que no quiere."
+        },
+        {
+            id: 42,
+            name: "8 DE COPAS",
+            description: "Indolencia, inestabilidad. Suceso material abandonado, quizás en pos de algo más alto. Interés que se esfuma. Vagabundeo.",
+            invert: "Alegría, felicidad. Un nuevo amor o un nuevo interés en las cosas materiales."
+        },
+        {
+            id: 43,
+            name: "7 DE COPAS",
+            description: "Corrupción. Expectativas necias. Sueños ilusorios, decepción, intoxicación, adición a las drogas.",
+            invert: "Nueva voluntad. Decisión inteligente. Viajes cortos."
+        },
+        {
+            id: 44,
+            name: "6 DE COPAS",
+            description: "Placer. Felicidad que viene desde el pasado. Nostalgia. Exito.",
+            invert: "Inseguridad. Vivir demasiado en el pasado. Asociados o amigos que no valen nada. Herencia."
+        },
+        {
+            id: 45,
+            name: "5 DE COPAS",
+            description: "Desengaño. Desgracia inesperada. Pérdida parcial. Amistad o amor perdido. Herencia.",
+            invert: "Felicidad nueva. Regreso de un viejo amor o un amigo. Alianza."
+        },
+        {
+            id: 46,
+            name: "4 DE COPAS",
+            description: "Lujos. Abandono al deseo. Nueva ambición.",
+            invert: "Lujos que no traen la felicidad. Descontento con el éxito material. Momento para hacer un cambio decisivo en la vida."
+        },
+        {
+            id: 47,
+            name: "3 DE COPAS",
+            description: "Abundancia. Placer, hospitalidad, éxito. Las buenas cosas de la vida.",
+            invert: "Excesos en el comer, el beber o la sensualidad. Pasión desenfrenada. Sexo sin amor."
+        },
+        {
+            id: 48,
+            name: "2 DE COPAS",
+            description: "Amor, armonía, cálida amistad. Relación estrecha con un alma gemela. Buena carta para los negocios y el amor.",
+            invert: "Oposición, falso amor, disparates, malentendidos."
+        },
+        {
+            id: 49,
+            name: "AS DE COPAS",
+            description: "Armonía, fertilidad, felicidad. Inicio de un gran amor.",
+            invert: "Discordia, falso amor, inestabilidad."
+        },
+        {
+            id: 50,
+            name: "REY DE ESPADAS",
+            description: "Este hombre puede ser un muy poderoso aliado o un buen consejero. Es inteligente, autocontrolado y tiene alguna autoridad. Es moderno y analítico. Esta carta también puede significar un juicio.",
+            invert: "Hombre engañoso y malicioso. Puede ser un enemigo peligroso, violento y poderoso."
+        },
+        {
+            id: 51,
+            name: "REINA DE ESPADAS",
+            description: "Una mujer elegante pero severa. Es perspicaz y tiene muy buen juicio. Puede ser una danzarina, una viuda o una mujer sin hijos. Esta carta también significa privación y duelo.",
+            invert: "Maliciosamente juguetona. Enemiga peligrosa. Celosa e intolerante."
+        },
+        {
+            id: 52,
+            name: "PRÍNCIPE [CABALLERO] DE ESPADAS",
+            description: "Hombre joven, audaz, inteligente y animoso. Puede ser un tanto dominante e inestable, pero tiene las mejores intenciones.",
+            invert: "Despiadado, fanático, extravagante, tiránico y agresivo. Enemigo peligroso."
+        },
+        
+    
 
             /*
-
-## (24) REINA DE BASTOS
-
-Mujer amable, energética, pero calma. Conservadora, pragmática y
-
-autoritaria. Fructífera en mente y cuerpo.
-
-### INVERTIDA:
-
-Dominante, celosa, dogmática e irracional. Rápida para ofenderse.
-
-## (25) PRÍNCIPE [CABALLERO] DE BASTOS
-
-Un hombre joven y energético, veloz y atrevido. Puede ser noble y generoso, pero también violento y apresurado.
-
-### INVERTIDA:
-
-Celoso, débil e intolerante. Pelea, discordia, frustración.
-
-## (26) PRINCESA [SOTA] DE BASTOS
-
-Joven y brillante. Entusiasta y atrevido. Un mensajero o portador de noticias.
-
-### INVERTIDA:
-
-Joven frívolo, teatral y hueco. Cruel, opresivo.
-
-## (27) 10 DE BASTOS
-
-Opresión. Desequilibrio y egocentrismo. Pesada carga. Fuerza desligada de las fuentes espirituales. Un problema se resolverá pronto.
-
-### INVERTIDA:
-
-Molestias, traición, separación, emigración, algunas pérdidas. Esterilidad.
-
-## (28) 9 DE BASTOS
-
-Fuerza, capacidad de soportar una larga lucha o esfuerzo y finalmente lograr la victoria. Recuperación de la salud. Fuerza en reserva. Buen arreglo.
-
-### INVERTIDA:
-
-Debilidad, retrasos, suspensión, adversidad. Mala salud.
-
-## (29) 8 DE BASTOS
-
-Velocidad. Decisión apresurada. Viaje aéreo, mensajes, cartas de amor. Hiperactividad. Grandes esperanzas.
-
-### INVERTIDA:
-
-Oposición, celos. Retraso en los negocios o en los asuntos amorosos.
-
-## (30) 7 DE BASTOS
-
-Valor. Victoria a través del coraje. Esfuerzo, lucha, fiera competición. Cierto éxito. Negociación, contrato.
-
-### INVERTIDA:
-
-Complicación, dificultad, inseguridad y miedo. Embarazo. Falsa apariencia.
-
-## (31) 6 DE BASTOS
-
-Victoria después de un conflicto. Buenas noticias, progreso. Ayudando a los amigos.
-
-### INVERTIDA:
-
-Aplazamiento. Insolencia, excesivo orgullo. Traición, aprensión.
-
-### (32) 5 DE BASTOS
-
-Conflicto, competición, juicio, obstáculos, oposición. Violencia, pelea.
-
-### INVERTIDA:
-
-Peligrosa indecisión, traición, complicación.
-
-## (33) 4 DE BASTOS
-
-Completa realización. Asentamiento, paz, armonía. Romance, matrimonio, sociedad.
-
-### INVERTIDA:
-
-Inseguridad, incomodidad, desconfianza, Contradicciones. Felicidad
-
-incompleta.
-
-## (34) 3 DE BASTOS
-
-Virtud. Fuerza establecida, realización de la esperanza, nobleza.
-
-Cooperación, asociación.
-
-### INVERTIDA:
-
-Inconsistencia, decepción, engaño. Robo, pérdida.
-
-## (35) 2 DE BASTOS
-
-Dominio. Madurez. Audacia con autocontrol. Influencia.
-
-### INVERTIDA:
-
-Disturbios. Indiferencia o desprecio de las consecuencias. Miedo,
-
-enfermedad.
-
-## (36) AS DE BASTOS
-
-Creación, nacimiento. El poder o habilidad para iniciar o para seguir
-
-adelante un plan o tarea con energía. Capacidad para realizar emprendimientos y determinación. Comienzo de una empresa, aventura, invención o algo nuevo.
-
-### INVERTIDA:
-
-Caída. Perder o postergar alguna cosa (empleo, emprendimiento, etc.). Falsos comienzos.
-
-## (37) CABALLERO [REY] DE COPAS
-
-Un hombre que conoce de leyes o comercio, pero también interesado en ciencia, arte, religión o filosofía. Un buen amigo, liberal, idealista y creativo. Amable y dispuesto a tomar alguna responsabilidad o brindar ayuda.
-
-### INVERTIDA:
-
-Un hombre superficial, que se entusiasma fácilmente pero sin profundidad ni firmeza de carácter. Indigno de confianza, mentiroso, despiadado y vicioso.
-
-## (38) Reina de Copas
-
-Soñadora, tranquila, poética, imaginativa, amable, pero no dispuesta a tomar muchas molestias para ayudar a otro.
-
-### INVERTIDA:
-
-Mujer deshonesta y viciosa. Indigna de confianza.
-
-## (39) PRÍNCIPE [CABALLERO] DE COPAS
-
-Un hombre joven, quizás un artista, gracioso y poético. Es un soñador indolente de placeres sensuales. Puede significar un mensajero, una proposición o una invitación.
-
-### INVERTIDA:
-
-Perezoso y engañoso. Disoluto y despiadado.
-
-## (40) PRINCESA [SOTA] DE COPAS
-
-Joven tranquilo y estudioso, pero también dulce y soñador. Noticias o proposición.
-
-### INVERTIDA:
-
-Un libertino sensual que no es perjudicial pero tampoco sirve de ayuda. Noticies desagradables. Adulador, egocéntrico.
-
-## (41) 10 DE COPAS
-
-Saciedad. Amor y contentamiento perfectos. Paz, amistad.
-
-### INVERTIDA:
-
-Disipación, pérdida de la amistad, traición. Cosas desperdiciadas.
-
-## (42) 9 DE COPAS
-
-Felicidad. Exito y bienestar material completo. Usted conseguirá lo que anhela.
-
-### INVERTIDA:
-
-Imperfección, engaño, intemperancia. Usted conseguirá lo que no quiere.
-
-## (43) 8 DE COPAS
-
-Indolencia, inestabilidad. Suceso material abandonado, quizás en pos de algo más alto. Interés que se esfuma. Vagabundeo.
-
-### INVERTIDA:
-
-Alegría, felicidad. Un nuevo amor o un nuevo interés en las cosas materiales.
-
-## (44) 7 DE COPAS
-
-Corrupción. Expectativas necias. Sueños ilusorios, decepción, intoxicación, adición a las drogas.
-
-### INVERTIDA:
-
-Nueva voluntad. Decisión inteligente. Viajes cortos.
-
-## (45) 6 DE COPAS
-
-Placer. Felicidad que viene desde el pasado. Nostalgia. Exito.
-
-### INVERTIDA:
-
-Inseguridad. Vivir demasiado en el pasado. Asociados o amigos que no valen nada. Herencia.
-
-## (46) 5 DE COPAS
-
-Desengaño. Desgracia inesperada. Pérdida parcial. Amistad o amor
-
-perdido. Herencia.
-
-### INVERTIDA:
-
-Felicidad nueva. Regreso de un viejo amor o un amigo. Alianza.
-
-## (47) 4 DE COPAS
-
-Lujos. Abandono al deseo. Nueva ambición.
-
-### INVERTIDA:
-
-Lujos que no traen la felicidad. Descontento con el éxito material. Momento para hacer un cambio decisivo en la vida.
-
-## (48) 3 DE COPAS
-
-Abundancia. Placer, hospitalidad, éxito. Las buenas cosas de la vida.
-
-### INVERTIDA:
-
-Excesos en el comer, el beber o la sensualidad. Pasión desenfrenada. Sexo sin amor.
-
-## (49) 2 DE COPAS
-
-Amor, armonía, cálida amistad. Relación estrecha con un alma gemela. Buena carta para los negocios y el amor.
-
-### INVERTIDA:
-
-Oposición, falso amor, disparates, malentendidos.
-
-## (50) AS DE COPAS
-
-Armonía, fertilidad, felicidad. Inicio de un gran amor.
-
-### INVERTIDA:
-
-Discordia, falso amor, inestabilidad.
-
-## (51) CABALLERO [REY] DE ESPADAS
-
-Este hombre puede ser un muy poderoso aliado o un buen consejero. Es inteligente, autocontrolado y tiene alguna autoridad. Es moderno y analítico. Esta carta también puede significar un juicio.
-
-### INVERTIDA:
-
-Hombre engañoso y malicioso. Puede ser un enemigo peligroso, violento y poderoso.
-
-## (52) REINA DE ESPADAS
-
-Una mujer elegante pero severa. Es perspicaz y tiene muy buen juicio. Puede ser una danzarina, una viuda o una mujer sin hijos. Esta carta también significa privación y duelo.
-
-### INVERTIDA:
-
-Maliciosamente juguetona. Enemiga peligrosa. Celosa e intolerante.
-
-## (53) PRÍNCIPE [CABALLERO] DE ESPADAS
-
-Hombre joven, audaz, inteligente y animoso. Puede ser un tanto dominante e inestable, pero tiene las mejores intenciones.
-
-### INVERTIDA:
-
-Despiadado, fanático, extravagante, tiránico y agresivo. Enemigo peligroso.
-
 ## (54) PRÍNCESA [SOTA] DE ESPADAS
 
 Persona joven, lógica y penetrante. Con mucha destreza física y mental. Espionaje, mensajes.
@@ -522,89 +450,70 @@ Una persona joven instruída, cuidadosa y reflexiva. Buena capacidad administrat
 
 Despilfarrador, ilógico. Joven rebelde. Malas noticias. Pérdida de dinero.
 
-## (69) 10 DE OROS
-
-Riqueza. Fortuna material completa. Asuntos de familia, herencia, casa familiar.
-
-### INVERTIDA:
-
-Desgracia en la familia. Pérdida de una herencia. Tenga cuidado con los proyectos aventurados.
-
-## (70) 9 DE OROS
-
-Ganancia. Sabiduría práctica limitado al hogar y los asuntos cotidianos. Estabilidad, soledad, herencia.
-
-### INVERTIDA:
-
-Pérdidas materiales o de la amistad. Proyecto cancelado. Tenga cuidado con los bribones.
-
-## (71) 8 DE OROS
-
-Prudencia. El primer paso en una provechosa profesión. Aprendiendo un negocio o profesión. Habilidad en asuntos materiales. Una morocha.
-
-### INVERTIDA:
-
-Avaricia. Egocentrismo infantil. Vanidad.
-
-## (72) 7 DE OROS
-
-Fracaso, derrota, pérdida de dinero. Trabajo duro pero con poca ganancia. Avaricia.
-
-### INVERTIDA:
-
-Exito retrasado después de un trabajo duro. Trabajo realizado por amor al trabajo, pero sin esperar retribuciones materiales.
-
-## (73) 6 DE OROS
-
-Éxito. Ganancia y poder materiales. Capacidad de compartir con otros la riqueza.
-
-### INVERTIDA:
-
-Ganancia temporal. Prodigalidad, ostentación de la riqueza, soborno.
-
-## (74) 5 DE OROS
-
-Preocupaciones. Pérdida de dinero o del empleo. Pobreza, derrota. Buena suerte en el amor, amantes, amor o amistad que se encuentra en el medio de los problemas.
-
-### INVERTIDA:
-
-Nuevo empleo u oportunidad. Trabajo productivo. Mala suerte en el amor.
-
-## (75) 4 DE OROS
-
-Poder. Ganancia y seguridad materiales. Un regalo o una herencia. Una niña. Avaricia.
-
-### INVERTIDA:
-
-Prejuicio, limitación. Estancamiento o pérdida material. Gasto desmedido de dinero.
-
-## (76) 3 DE OROS
-
-Trabajos. Tarea bien realizada. Transacciones comerciales. Progreso y crecimiento en la profesión elegida. Dignidad. Un niño.
-
-### INVERTIDA:
-
-Habilidad o conocimiento insuficiente para lograr lo que se pretende. Trabajo inútil. Carencia de seriedad.
-
-## (77) 2 DE OROS
-
-Cambio. Alternación de ganancia y pérdida. Equilibrio en el medio del cambio. Habilidad para adaptarse a nuevas circunstancias. Algunas complicaciones. Temperamento inestable.
-
-### INVERTIDA:
-
-Inseguridad. Dificultad para adaptarse a nuevas circunstancias.
-
-## (78) AS DE OROS
-
-El comienzo de la prosperidad y la riqueza. Placer y belleza.
         }
     ]);
  */
-        },
-
-
-    
-
+    {
+        id: 68,
+        name: "10 DE OROS",
+        description: "Riqueza. Fortuna material completa. Asuntos de familia, herencia, casa familiar.",
+        invert: "Desgracia en la familia. Pérdida de una herencia. Tenga cuidado con los proyectos aventurados."
+    },
+    {
+        id: 69,
+        name: "9 DE OROS",
+        description: "Ganancia. Sabiduría práctica limitado al hogar y los asuntos cotidianos. Estabilidad, soledad, herencia.",
+        invert: "Pérdidas materiales o de la amistad. Proyecto cancelado. Tenga cuidado con los bribones."
+    },
+    {
+        id: 70,
+        name: "8 DE OROS",
+        description: "Prudencia. El primer paso en una provechosa profesión. Aprendiendo un negocio o profesión. Habilidad en asuntos materiales. Una morocha.",
+        invert: "Avaricia. Egocentrismo infantil. Vanidad."
+    },
+    {
+        id: 71,
+        name: "7 DE OROS",
+        description: "Fracaso, derrota, pérdida de dinero. Trabajo duro pero con poca ganancia. Avaricia.",
+        invert: "Exito retrasado después de un trabajo duro. Trabajo realizado por amor al trabajo, pero sin esperar retribuciones materiales."
+    },
+    {
+        id: 72,
+        name: "6 DE OROS",
+        description: "Éxito. Ganancia y poder materiales. Capacidad de compartir con otros la riqueza.",
+        invert: "Ganancia temporal. Prodigalidad, ostentación de la riqueza, soborno."
+    },
+    {
+        id: 73,
+        name: "5 DE OROS",
+        description: "Preocupaciones. Pérdida de dinero o del empleo. Pobreza, derrota. Buena suerte en el amor, amantes, amor o amistad que se encuentra en el medio de los problemas.",
+        invert: "Nuevo empleo u oportunidad. Trabajo productivo. Mala suerte en el amor."
+    },
+    {
+        id: 74,
+        name: "4 DE OROS",
+        description: "Poder. Ganancia y seguridad materiales. Un regalo o una herencia. Una niña. Avaricia.",
+        invert: "Prejuicio, limitación. Estancamiento o pérdida material. Gasto desmedido de dinero."
+    },
+    {
+        id: 75,
+        name: "3 DE OROS",
+        description: "Trabajos. Tarea bien realizada. Transacciones comerciales. Progreso y crecimiento en la profesión elegida. Dignidad. Un niño.",
+        invert: "Habilidad o conocimiento insuficiente para lograr lo que se pretende. Trabajo inútil. Carencia de seriedad."
+    },
+    {
+        id: 76,
+        name: "2 DE OROS",
+        description: "Cambio. Alternación de ganancia y pérdida. Equilibrio en el medio del cambio. Habilidad para adaptarse a nuevas circunstancias. Algunas complicaciones. Temperamento inestable.",
+        invert: "Inseguridad. Dificultad para adaptarse a nuevas circunstancias."
+    },
+    {
+        id: 77,
+        name: "3 DE BASTOS",
+        description: "El comienzo de la prosperidad y la riqueza. Placer y belleza.",
+        invert: "El exito se retrasa o no trae la felicidad esperada. Avaricia."
+    }
+       
 
     ])
         
