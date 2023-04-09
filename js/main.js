@@ -45,20 +45,23 @@ function eliminarCard(index) {
 
 function readCards() {
   temp = 0;
-  for (i = 1; i <= 10; i++) {
+  for (i = 1; i <= 11; i++) {
     let element = generateRandom(list.length);
-
-    if (generateRandom(2) == 1) {
+    numerito = generateRandom(2);
+    if (numerito == 1) {
       list[element].invertida = false;
     }
-    else {
+    if(numerito != 1) {
       list[element].invertida = true;
     }
 
     list2.push(list[element]);
     eliminarCard(element);
+
+    console.log(list2);
   }
   list2.reverse();
+  
   preloadabanico();
 }
 
@@ -196,9 +199,20 @@ div = document.getElementById("padre");
 function preloadabanico() {
   i=0;
   list2.forEach(element => {
-    div.insertAdjacentHTML("beforeend", `<div class='pruebaCarta pruebaCarta${i+1}'>
-      <p>${element.name}</p>
+    
+    if(element.invertida == true){
+      
+    }
+
+    if(element.invertida == false) {
+      div.insertAdjacentHTML("beforeend", `<div class='pruebaCarta pruebaCarta${i+1}'>
+      <div class='content' style='background-image:url("${element.img}")'
+        <h1>${element.name}</h1>
+        <p>${element.invert}</p>
+      </div>
     </div>`);
+    }
+    
     i+=1;
   });
 }
