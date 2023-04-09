@@ -2,6 +2,7 @@ window.addEventListener("load", (event) => {
   divCards = document.getElementById("divCards");
   divCards.hidden = true;
   preload();
+  readCards();
 });
 
 tableBody = document.getElementById("tableBody");
@@ -58,8 +59,7 @@ function readCards() {
     eliminarCard(element);
   }
   list2.reverse();
-
-  interpretacion();
+  preloadabanico();
 }
 
 
@@ -189,6 +189,23 @@ function preload() {
     llenarLista(element);
   });
 }
+
+
+div = document.getElementById("padre");
+
+function preloadabanico() {
+  i=0;
+  list2.forEach(element => {
+    div.insertAdjacentHTML("beforeend", `<div class='pruebaCarta pruebaCarta${i+1}'>
+      <p>${element.name}</p>
+    </div>`);
+    i+=1;
+  });
+}
+
+
+
+
 
 
 function searchCard() {
