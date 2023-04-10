@@ -2,7 +2,6 @@ window.addEventListener("load", (event) => {
   divCards = document.getElementById("divCards");
   divCards.hidden = true;
   preload();
-  readCards();
 });
 
 tableBody = document.getElementById("tableBody");
@@ -57,8 +56,6 @@ function readCards() {
 
     list2.push(list[element]);
     eliminarCard(element);
-
-    console.log(list2);
   }
   list2.reverse();
   
@@ -201,15 +198,21 @@ function preloadabanico() {
   list2.forEach(element => {
     
     if(element.invertida == true){
-      
+      div.insertAdjacentHTML("beforeend", `<div class='pruebaCarta pruebaCarta${i+1}' style='background-image:url("${element.img}"); opacity:1'>
+      <h1>${element.name}</h1>
+      <div class='content'
+        <p>${element.description}</p>
+      </div>
+    </div>`);
     }
 
     if(element.invertida == false) {
-      div.insertAdjacentHTML("beforeend", `<div class='pruebaCarta pruebaCarta${i+1}'>
-      <div class='content' style='background-image:url("${element.img}")'
-        <h1>${element.name}</h1>
+      div.insertAdjacentHTML("beforeend", `<div class='pruebaCarta pruebaCarta${i+1}' style='background-image:url("${element.img}"); opacity:1'>
+      <h1>${element.name}</h1>
+      <div class='content'
         <p>${element.invert}</p>
       </div>
+      
     </div>`);
     }
     
