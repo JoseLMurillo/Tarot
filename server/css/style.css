@@ -1,34 +1,44 @@
 
-* {
-    color: white;
-}
+
 body {
     overflow-x: hidden;
-    background-image: url('https://images.unsplash.com/photo-1519681393784-d120267933ba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1124&q=100');
     background-position: center;
 }
 
+.navbar {
+  position: sticky;
+  top: 0;
+}
 
-/* .container {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 1200px;
-    flex-wrap: wrap;
-    z-index: 1;
-} */
+.card{
+    border: none;
+    background: none;
+}
+
+
+.card img{
+  transition: 0,5s;
+  filter: grayscale(1);
+}
+
+.card:hover img{
+    transition: 1.5s;
+    filter: grayscale(0);
+}
+
+
+.col-md-4{
+    padding:0;
+}
 
 #padre {
     position: relative;
-    display: flex;
-    justify-content: space-between;
-    top: 300px;
     width: 100%;
+    margin-top: 10px;
 }
 
 .pruebaCarta {
-    position: absolute;
+    position: relative;
     width: 170px;
     height: 270px;
     border-radius: 6px;
@@ -41,92 +51,87 @@ body {
     align-items: center;
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(5px);
     text-align: center;
     align-items: center;
     transform: scale(0px);
 }
 
+
 .pruebaCarta h1{
-    font-size: 20px;
+    font-weight:900;
     text-align: center;
     margin: 0;
+}
+
+h1, p{
+    backdrop-filter: blur(2px);
 }
 
 
 .pruebaCarta .content{
     padding: 20px;
     text-align: center;
-    font-size: 10px;
     /* transform: translateY(100px); 
     opacity: 0;*/
     transition: 0.5s;
     margin: 0;
-}
-
-.pruebaCarta:hover{
-    z-index: 2;
-    background: rgba(255, 0, 0, 0.1);
-    transform: scale(2);
-    transition: 0.5s;
-    backdrop-filter: blur(10px);
+    z-index: 1px;
 }
 
 
-.pruebaCarta1 {
-    top: 50px;
-    left: 45%;
-    right: 50%;
+#hijo, #hijo1, #hijo2, #hijo3, #hijo4, #hijo5 {
+    justify-content: center;
+    align-items: center;
 }
 
-.pruebaCarta2 {
-    top: 160px;
-    left: 110px;
-   
+#anime{
+    opacity: 0;
+    transform: translateX(-50%);
 }
 
-.pruebaCarta3 {
-    top: -30px;
-    left: 200px;
+.card:hover #anime{
+    transition: all 1.5s;
+    opacity: 1;
+    transform: translateX(0%);
 }
 
-.pruebaCarta4 {
-    top: -180px;
-    left: 342px;
+#card12{
+    visibility: hidden;
 }
 
-.pruebaCarta5 {
-    top: -250px;
-    left: 45%;
-    right: 50%;
+
+
+body {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(225deg, #2d238a, #40bfe9, #21f263);
+  background: -webkit-linear-gradient(225deg, #2d238a, #40bfe9, #21f263);
+  /*  this color scheme is from - https://uigradients.com/#Wiretap  */
+  background-size: 300% 300%;
+  animation: GradientAnimation 20s ease infinite;
+  -webkit-animation: GradientAnimation 20s ease infinite;
 }
 
-.pruebaCarta6 {
-    top: -180px;
-    right: 250px;
+@keyframes GradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
-.pruebaCarta7 {
-    top: -30px;
-    right: 110px;
-}
-
-.pruebaCarta8 {
-    top: 160px;
-    right: 30px;
-}
-
-.pruebaCarta9 {
-    top: 290px;
-    left: 360px;   
-}
-
-.pruebaCarta10 {
-    top: 290px;
-    left: 540px;
-}
-
-.pruebaCarta11 {
-    top: 290px;
-    right: 270px;
+@-webkit-keyframes GradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
